@@ -1,4 +1,4 @@
-for i in range (100,1,-1):
+for i in range (100,0,-1):
     print (i, "bottles of beer on the wall")
     print(i, "bottles of beer")
     print ("Take one down, pass it around", i-1, "bottles of beer on the wall..." )
