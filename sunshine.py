@@ -10,7 +10,11 @@ print("Ain't no sunshine when she's gone")
 print("And this house just ain't no home")
 print("Anytime she goes away")
 print("")
-print("I know")
+
+word = "I know"
+for i in range(20):
+    print("I know")
+
 print("")
 print("Hey, I oughta leave young thing alone")
 print("But ain't no sunshine when she's gone")
