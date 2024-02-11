@@ -1,4 +1,5 @@
 # Define flashcards with questions and answers
+
 flashcards = {
     "Q1": {"question": "Name the three different types of colors.", "answer": "Primary, secondary, and tertiary."},
     "Q2": {"question": "List the primary colors.", "answer": "Red, yellow, and blue."},
@@ -16,7 +17,7 @@ flashcards = {
 def display_flashcard(flashcards):
     card = random.choice(list(flashcards.keys()))
     print("\nQuestion:", flashcards[card]["question"])
-    input("Press Enter to reveal the answer.")
+    input("Press Enter for the answer.")
     print("Answer:", flashcards[card]["answer"])
 
 # Main program loop
@@ -29,7 +30,7 @@ while True:
     if choice == "1":
         display_flashcard(flashcards)
     elif choice == "2":
-        print("Exiting the program. Goodbye!")
+        print("Exiting the program. Adios!")
         break
     else:
         print("Invalid choice. Please enter 1 or 2.")
