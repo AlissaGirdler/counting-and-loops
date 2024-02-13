@@ -28,7 +28,7 @@ if start.lower() == "yes":
             print("Correct, on to the next question!")
             break 
         
-        elif ()
+        elif ():
                 print("Incorrect")
                 user_answer = input("Try again: ")
 
