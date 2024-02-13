@@ -9,10 +9,10 @@ cards = {
     "Q4": {"question": "How do you make secondary colors?", "answer": ["combine","mix","two","secondar"]},
     "Q5": {"question": "Name the cool primary color.", "answer": "Blue"},
     "Q6": {"question": "Name the warm secondary color.", "answer": "orange"},
-    "Q7": {"question": "What is another name for tertiary colors?", "answer": "Intermediate"},
-    "Q8": {"question": "What is the relationship between colors on the opposite side of the color wheel?", "answer": "Complimentary"},
-    "Q9": {"question": "Name one measurement of color properties.", "answer": ["Saturation", "value"]},
-    "Q10": {"question": "What color contains all colors?", "answer": "White"}
+    "Q7": {"question": "What is another name for tertiary colors?", "answer": "intermediate"},
+    "Q8": {"question": "What is the relationship between colors on the opposite side of the color wheel?", "answer": "complimentary"},
+    "Q9": {"question": "Name one measurement of color properties.", "answer": ["saturation", "value"]},
+    "Q10": {"question": "What color contains all colors?", "answer": "white"}
 }
 
 # User launches
@@ -27,11 +27,12 @@ if start.lower() == "yes":
 
         while True:
             if (user_answer.lower() not cards[rq]["answer"]):
-            print("Correct!")
-            break
-        elif ()
             print("Incorrect")
             user_answer = input("Try again: ")
+
+            elif (user_answer.lower() in cards[rq]["answer"]):
+                print("Correct, on to the next!")
+                break
 else:
     print("Bye!")
 
